@@ -32,7 +32,7 @@ symbols = [rock, paper, scissors]
 print("0: Rock")
 print("1: Paper")
 print("2: Scissors")
-user_choice = input("\nWhat do you choose?\n")
+user_choice = int(input("\nWhat do you choose?\n"))
 computer_choice = random.randint(0, 2)
 print("\nComputer chose..\n")
 print(symbols[computer_choice])
